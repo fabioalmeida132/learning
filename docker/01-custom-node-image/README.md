@@ -4,7 +4,6 @@ Neste exemplo, foi criado uma imagem customizada para o nodejs com express.
 Foi adicionado ENV e ARGS para a imagem.
 
 ENV: Variáveis de ambiente que são utilizados na execução da imagem.
-
 ARGS: Argumentos que são passados no momento da criação da imagem.
 
 ## Gerando a imagem
