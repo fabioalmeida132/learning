@@ -7,9 +7,11 @@ ENV MESSAGE="Hello from Dockerfile"
 
 WORKDIR /app
 
+COPY package*.json ./
+RUN npm install
+
 COPY . .
 
-RUN npm install
 
 # Imagem de produção
 FROM node:${NODE_VERSION}-alpine AS production

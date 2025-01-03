@@ -17,12 +17,12 @@ A imagem possui como argumento a versão do nodejs que será instalada. Para ger
 Para executar o container, execute o comando abaixo:
 
 ```bash
-  docker run -d --rm -p 3000:3030 node-app
+  docker run -d --rm -p 3030:3000 node-app
 ```
 
 ## Executando o container com variáveis de ambiente
 Para executar o container com variáveis de ambiente, execute o comando abaixo:
 
 ```bash
-  docker run -d --rm -p 3000:3000 -e MESSAGE="Hello World Custom!" node-app
+  docker run -d --rm -p 3030:3000 -e MESSAGE="Hello World Custom!" node-app
 ```
